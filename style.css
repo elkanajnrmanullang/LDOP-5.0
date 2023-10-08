@@ -57,14 +57,14 @@ html {
   position: absolute;
   top: 0;
   right: 0;
-  background: url('wallpaper.jpg') no-repeat center center/cover ;
+  background: url("wallpaper.jpg") no-repeat center center/cover;
   height: 900px;
   width: 100%;
   z-index: -1;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +73,7 @@ html {
   right: 10%;
 }
 
-.headings{
+.headings {
   font-family: century;
   font-size: 3rem;
   text-align: right;
@@ -81,7 +81,7 @@ html {
   display: flex;
 }
 
-#About{
+#About {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -89,18 +89,19 @@ html {
   color: black;
 }
 
-#img{
+#img {
   display: flex;
 }
 
-#img img{
+#img img {
   width: 575px;
   height: 400px;
   padding: 25px;
 }
 
-.heading{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 3rem;
   text-align: center;
   margin: 40px 0px;
@@ -112,42 +113,42 @@ html {
   top: 0;
 }
 
-.heading1{
-  font-family: 'Times New Roman', Times, serif;
+.heading1 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   text-align: center;
   margin: 40px 0px;
 }
 
-#intro{
+#intro {
   display: flex;
   flex-direction: column;
   text-align: justify;
   padding-top: 72px;
   padding-left: 20px;
   padding-right: 25px;
-  list-style:circle;
+  list-style: circle;
 }
 
-#intro h2{
+#intro h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-#service{
+#service {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -160,10 +161,10 @@ html {
   border-radius: 15px;
   background: linear-gradient(to top, rgb(81, 92, 95) 50%, white 50%);
   background-size: 100% 200%;
-  transition: all .8s;
+  transition: all 0.8s;
 }
 
-.box:hover{
+.box:hover {
   background-position: left bottom;
   color: white;
   border: none;
@@ -178,7 +179,7 @@ html {
   justify-content: center;
   padding: 25px 25px;
   gap: 20px;
-  padding-left: 626px ;
+  padding-left: 626px;
 }
 
 .socialContainer {
@@ -190,32 +191,32 @@ html {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 /* instagram*/
 .containerOne:hover {
   background-color: #d62976;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 /* twitter*/
 .containerTwo:hover {
   background-color: #00acee;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 /* linkdin*/
 .containerThree:hover {
   background-color: #0072b1;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 /* Whatsapp*/
 .containerFour:hover {
-  background-color: #128C7E;
-  transition-duration: .3s;
+  background-color: #128c7e;
+  transition-duration: 0.3s;
 }
 
 .socialContainer:active {
   transform: scale(0.9);
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .socialSvg {
